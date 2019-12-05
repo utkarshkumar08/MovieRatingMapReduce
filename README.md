@@ -1,7 +1,7 @@
 # MovieRatingMapReduce
 MR Jobs to list out highest rated movie in each genre from Movielens dataset. 
 
-Our proposed solution architecture uses 3 MR jobs which are connected in a chain and executed on a Hadoop cluster with 1 master node and 4 slave nodes.
+Our proposed solution architecture uses 3 MR jobs which are connected in a chain and executed on a Hadoop cluster with 1 master node and 4 slave nodes. Also, executed these MR jobs on AWS Elastic Map Reduce service.
 
 First Job:
 	2 Mapping Functions and 1 Reducer function
